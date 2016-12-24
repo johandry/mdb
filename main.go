@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/johandry/mdb/commands"
 
 func main() {
-	fmt.Println("This is my Movies Database!")
+	commands.Run()
 }
